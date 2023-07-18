@@ -118,7 +118,9 @@ nav ul li a{
     align-items: center;
 
   }
-  
+  h3,p{
+    color: #001881;
+  }
   .card {
     width: 300px;
     height: 300px;
@@ -140,7 +142,29 @@ nav ul li a{
   }
   .card h3 {
     margin: 5px 0;
+    text-align: center;
   }
   .card p {
     margin: 5px 0;
+    text-align: center;
   }
+
+  .button {
+  margin: auto;
+  padding: 5px;
+  display: block;
+  width: 60%;
+  height: 35px;
+  background-color: #0000FF;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.button a{
+    text-align: center;
+    text-decoration: none;
+}
